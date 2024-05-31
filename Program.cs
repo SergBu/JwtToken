@@ -19,4 +19,16 @@ string GetJwtToken()
 
     var token = new JwtSecurityTokenHandler().WriteToken(tokenInfo);
     return token;
+
+    //"ApiConfig": {
+    //"Client": {
+    //    "BaseUri": "https://logist.ru:143",
+    //  "Timeout": 60
+    //},
+    //"Token": {
+    //    "Secret": "qwertyuiopasdfgh_qwertyuiopasdfgh_Secret128",
+    //  "TTL": 86400,
+    //  "Issuer": "Smart"
+    //}
+    //},
 }
